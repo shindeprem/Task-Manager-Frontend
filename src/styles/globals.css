@@ -92,3 +92,33 @@ button{
   border: none;
   outline: none;
 }
+
+.tbl-stats{
+  margin: 30px 0;
+}
+
+.tbl-stats table{
+  border-collapse: collapse;
+}
+.tbl-stats .full-w-tbl{
+  width: 100%;
+}
+
+.full-w-tbl-stats{
+  overflow-x: scroll;
+}
+
+.tbl-stats tr{
+  th,td{
+    text-align: center;
+    padding: 12px 15px;
+  }
+}
+
+.tbl-stats tbody tr:nth-child(odd){
+  background-color: #222222;
+}
+
+.tbl-stats tr:nth-child(even), thead tr {
+  background-color: #333333;
+} 

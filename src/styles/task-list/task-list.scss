@@ -1,0 +1,80 @@
+.updt-tsk-header{
+    justify-content: space-between;
+    margin-top: 10px;
+    .edit-tsk-lst{
+        .add-tsk,.delete-tsk{
+            padding: 5px 10px;
+            background-color: transparent;
+            border-radius: 4px;
+            column-gap: 3px;
+        }
+
+        .add-tsk{
+            color: #3b82f6;
+            border: 1px solid #3b82f6;
+        }
+        .delete-tsk{
+            color: #FF0800;
+            border: 1px solid #FF0800;
+        }
+    }
+
+    .tsk-fltr{
+        .sub-tsk-fltr{
+            .fltr-lst{
+                position: relative;
+                display: none;
+                ul{
+                    list-style-type: none;
+                    position: absolute;
+                    z-index: 1;
+                    color: #000;
+                    left: -20;
+                    top: 3px;
+                    right: 0;
+                    border-radius: 3px;
+                    overflow: hidden;
+
+                    li{
+                        padding: 5px 7px;
+                        cursor: pointer;
+                        background-color: #fff;
+                        font-size: 15px;
+                    }
+                    .remove-lst{
+                        color: #FF0800;
+                        border-top:1px solid #33333346;
+                    }
+                }
+            }
+            .display-lst{
+                display: block;
+            }
+            .fltr-btn{
+                cursor: pointer;
+                border: 1px solid;
+                column-gap: 5px;
+                border-radius: 20px;
+                padding: 5px 10px;
+            }
+
+            .status-fltr,.priority-fltr{
+                color: #3b82f6;
+            }
+            // .priority-fltr{
+                
+            // }
+            .tsk-sort{
+                background-color: #3b82f6;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+}
+
+.updt-tsk-header, .updt-tsk-header .edit-tsk-lst, .updt-tsk-header .tsk-fltr{
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}

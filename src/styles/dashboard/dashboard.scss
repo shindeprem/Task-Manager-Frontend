@@ -5,11 +5,11 @@
         .dashboard-stats{
             display: flex;
             flex-wrap: wrap;
-            column-gap: 30px;
-            margin: 10px 0;
+            column-gap: 15px;
+            margin: 15px 0;
 
             .stats{
-                text-align: center; max-width: 227px;
+                text-align: center; max-width: 215px; width: 100%;
                 .stats-val{
                     font-size: 32px;
                     color: #3b82f6;

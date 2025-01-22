@@ -4,13 +4,14 @@
 .dashboard .dashboard-summary .dashboard-stats {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  margin: 10px 0;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  margin: 15px 0;
 }
 .dashboard .dashboard-summary .dashboard-stats .stats {
   text-align: center;
-  max-width: 227px;
+  max-width: 215px;
+  width: 100%;
 }
 .dashboard .dashboard-summary .dashboard-stats .stats .stats-val {
   font-size: 32px;

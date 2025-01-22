@@ -1,0 +1,115 @@
+.task-handler form {
+  z-index: 1000;
+  background-color: #fff;
+  color: #000;
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.task-handler form .react-datepicker-popper {
+  z-index: 10;
+  transform: translate(52px, 50.5px) !important;
+}
+.task-handler form .task-header {
+  margin-bottom: 20px;
+}
+.task-handler form input {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #333333;
+  outline: none;
+  border-radius: 3px;
+  padding: 8px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.task-handler form .priority-status-input {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.task-handler form .priority-status-input .priority-input {
+  width: 100%;
+}
+.task-handler form .priority-status-input .status-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.task-handler form .priority-status-input .status-input .status-toggler-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.task-handler form .priority-status-input .status-input .status-toggler-container .status-toggler {
+  background-color: #555555;
+  padding: 4px;
+  width: 45px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.task-handler form .priority-status-input .status-input .status-toggler-container .status-toggler .inner-circle {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.task-handler form .priority-status-input .status-input .status-toggler-container .task-finished {
+  justify-content: flex-end;
+}
+.task-handler form .priority-status-input .status-input .status-toggler-container .task-finished .inner-circle {
+  background-color: #0f0;
+}
+.task-handler form .time-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.task-handler form .time-input-container .start-time,
+.task-handler form .time-input-container .end-time {
+  width: 48%;
+}
+.task-handler form .time-input-container .start-time label,
+.task-handler form .time-input-container .end-time label {
+  display: block;
+  margin-bottom: 5px;
+}
+.task-handler form .form-btn-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.task-handler form .form-btn-container .add-task-btn {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.task-handler form .form-btn-container .add-task-btn:hover {
+  background-color: #0056b3;
+}
+.task-handler form .form-btn-container .cancel-add-task {
+  padding: 8px 15px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.task-handler form .form-btn-container .cancel-add-task:hover {
+  background-color: #d32f2f;
+}/*# sourceMappingURL=task-handler.css.map */

@@ -1,0 +1,136 @@
+.task-handler {
+    form {
+      z-index: 1000;
+      background-color: #fff;
+      color: #000;
+      max-width: 450px;
+      width: 100%;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+
+      .react-datepicker-popper {
+        z-index: 10; 
+        transform: translate(52px, 50.5px) !important;    
+    }
+  
+      .task-header {
+        margin-bottom: 20px;
+      }
+  
+      input {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #333333;
+        outline: none;
+        border-radius: 3px;
+        padding: 8px;
+        color: #333333;
+        margin-bottom: 15px;
+      }
+  
+      .priority-status-input {
+        display: flex;
+        gap: 20px;
+        margin: 20px 0;
+  
+        .priority-input {
+          width: 100%;
+        }
+  
+        .status-input {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+  
+          .status-toggler-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+  
+            .status-toggler {
+              background-color: #555555;
+              padding: 4px;
+              width: 45px;
+              height: 30px;
+              border-radius: 20px;
+              display: flex;
+              align-items: center;
+  
+              .inner-circle {
+                background-color: #fff;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                transition: all 0.3s ease;
+              }
+            }
+  
+            .task-finished {
+              justify-content: flex-end;
+  
+              .inner-circle {
+                background-color: #0f0;
+              }
+            }
+          }
+        }
+      }
+  
+      .time-input-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+  
+        .start-time,
+        .end-time {
+          width: 48%;
+  
+          label {
+            display: block;
+            margin-bottom: 5px;
+          }
+        }
+      }
+  
+      .form-btn-container {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+  
+        .add-task-btn {
+          padding: 8px 15px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+  
+        .cancel-add-task {
+          padding: 8px 15px;
+          background-color: #f44336;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #d32f2f;
+          }
+        }
+      }
+    }
+  }
+  
