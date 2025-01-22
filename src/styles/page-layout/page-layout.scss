@@ -1,0 +1,29 @@
+.page-layout{
+    .full-w-head{
+        border-bottom: 1px solid #ffffff;
+
+        .layout{
+            .layout-header{
+                padding: 0 20px;
+                justify-content: space-between;
+                
+            
+                .page-lnks{
+                    display: flex;
+                    a{
+                        padding: 15px 10px 15px 0;
+    
+                        &:hover{
+                            color: #3b82f6;
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+                .signout-btn{
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    
+}

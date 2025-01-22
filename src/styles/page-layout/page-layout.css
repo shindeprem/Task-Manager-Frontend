@@ -1,0 +1,20 @@
+.page-layout .full-w-head {
+  border-bottom: 1px solid #ffffff;
+}
+.page-layout .full-w-head .layout .layout-header {
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.page-layout .full-w-head .layout .layout-header .page-lnks {
+  display: flex;
+}
+.page-layout .full-w-head .layout .layout-header .page-lnks a {
+  padding: 15px 10px 15px 0;
+}
+.page-layout .full-w-head .layout .layout-header .page-lnks a:hover {
+  color: #3b82f6;
+  transition: 0.3s ease-in-out;
+}
+.page-layout .full-w-head .layout .layout-header .signout-btn {
+  border-radius: 2px;
+}/*# sourceMappingURL=page-layout.css.map */

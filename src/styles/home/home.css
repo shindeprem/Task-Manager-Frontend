@@ -1,0 +1,19 @@
+.index-sign-in {
+  text-align: center;
+}
+.index-sign-in .sign-in-container .sign-in-form {
+  padding: 20px 0;
+  row-gap: 20px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.index-sign-in .sign-in-container .sign-in-form input {
+  padding: 8px 3px;
+  outline: none;
+  border: 1px solid;
+}
+.index-sign-in .sign-in-container .sign-in-form button, .index-sign-in .sign-in-container .sign-in-form input {
+  border-radius: 2px;
+}/*# sourceMappingURL=home.css.map */
