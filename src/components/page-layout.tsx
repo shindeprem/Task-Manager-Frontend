@@ -1,4 +1,3 @@
-import "@/styles/page-layout/page-layout.css"
 import { useRouter } from "next/router";
 
 const PageLayout: React.FC<{children: React.ReactNode}> = ({children})=>{

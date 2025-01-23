@@ -1,5 +1,4 @@
 import PageLayout from "@/components/page-layout";
-import "@/styles/home/home.css"
 import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 axios.defaults.withCredentials= true;

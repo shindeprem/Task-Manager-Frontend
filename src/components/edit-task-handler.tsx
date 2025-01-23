@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "@/styles/task-handler/task-handler.css";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
 import read_api from "./enums";
 axios.defaults.withCredentials = true;

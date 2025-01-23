@@ -1,5 +1,4 @@
 import PageLayout from "@/components/page-layout"
-import "@/styles/task-list/task-list.css"
 import { FaPen } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
 import { MdDelete } from "react-icons/md";

@@ -1,6 +1,5 @@
 import read_api from "@/components/enums";
 import PageLayout from "@/components/page-layout"
-import "@/styles/home/home.css"
 import axios from "axios"
 axios.defaults.withCredentials= true;
 import { useRouter } from "next/router"
