@@ -78,3 +78,11 @@
     column-gap: 10px;
     row-gap: 10px;
 }
+
+.pagination-btns{
+    justify-content: center;
+    column-gap: 5px;
+    button{
+        border-radius: 5px;
+    }
+}

@@ -14,6 +14,9 @@
   outline: none;
   border: 1px solid;
 }
+.index-sign-in .sign-in-container .sign-in-form a {
+  color: aqua;
+}
 .index-sign-in .sign-in-container .sign-in-form button, .index-sign-in .sign-in-container .sign-in-form input {
   border-radius: 2px;
 }/*# sourceMappingURL=home.css.map */

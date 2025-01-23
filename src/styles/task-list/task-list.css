@@ -67,4 +67,13 @@
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
+}
+
+.pagination-btns {
+  justify-content: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.pagination-btns button {
+  border-radius: 5px;
 }/*# sourceMappingURL=task-list.css.map */
